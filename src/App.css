@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Pacifico&family=Roboto&display=swap");
+
+.homepage {
+  display: flex;
+  height: 95vh;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headtitle:hover {
+  color: #dc3012;
+  cursor: pointer;
+}
+.nav-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+.animTxt {
+  color: #272d32;
+}
+.meglogo {
+  height: 80px;
+}
+.nav-btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  padding: 0px 10px 0 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #c5c5c5;
+  z-index: 1;
+}
+.nav-btn a {
+  color: #fff;
+  font-size: 17px;
+}
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.eduint {
+  padding: 10px;
+  padding-top: 62px;
+}
+.portimg {
+  max-height: 440px;
+  width: auto;
+}
+.portimg1 {
+  max-height: 390px;
+  width: auto;
+}
+.skills {
+  padding: 10px;
+  padding-top: 62px;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+.projectinfo {
+  padding: 10px;
+  justify-content: space-evenly;
+  padding-top: 62px;
+}
+.skillset {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 17px;
+}
+.setlogo {
+  height: 180px;
+  background-color: #10cebe66;
+  border: 1px solid white;
+  width: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.setlogo:hover {
+  transform: scale(1.1);
+  background-color: #757070;
+  color: white;
+}
+.games {
+  max-height: 130px;
+  max-width: 130px;
+  width: 100%;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+.about {
+  padding: 15px;
+  padding-top: 62px;
+}
+.abtpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abttxt {
+  padding: 15px;
+  max-width: 1200px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 15px;
+}
+@media (max-width: 750px) {
+  .homepage {
+    flex-direction: column-reverse;
+    height: 90vh;
+    justify-content: center;
+  }
+  .contact-info {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .portimg {
+    height: 300px;
+    width: 100%;
+  }
+  .portimg1 {
+    max-height: 300px;
+    width: auto;
+  }
+}
+@media (max-width: 900px) {
+  .portimg {
+    max-height: 350px;
+    width: auto;
+  }
+}
+@media (min-width: 800px) {
+  .skillset {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+  }
+}
