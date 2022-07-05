@@ -136,7 +136,7 @@ function Projects() {
             <br />
           </CardContent>
           <CardActions sx={{ justifyContent: "center" }}>
-            <Tooltip title="Mega's pizza-frontend" placement="top">
+            <Tooltip title="vicks pizza-frontend" placement="top">
               <Link
                 color="inherit"
                 target="_blank"

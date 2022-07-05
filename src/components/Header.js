@@ -86,7 +86,7 @@ function Header() {
             target="_blank"
             underline="none"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1mzJHTduwWK0WSR_2N0TIAehyzPjXANLI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bNf1C6ZBme1xGrLt8RbhHtLuKgcWhDeq/view?usp=sharing"
           >
             RESUME
           </Link>
@@ -167,7 +167,7 @@ function Header() {
               target="_blank"
               underline="none"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1mzJHTduwWK0WSR_2N0TIAehyzPjXANLI/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bNf1C6ZBme1xGrLt8RbhHtLuKgcWhDeq/view?usp=sharing"
             >
               RESUME
             </Link>
