@@ -39,14 +39,7 @@ function Header() {
             About
           </a>
         </Button>
-        <Button
-          className="navbtn"
-          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
-        >
-          <a data-scroll href="#education">
-            Education
-          </a>
-        </Button>
+        
         <Button
           className="navbtn"
           sx={{ color: "inherit", display: { xs: "none", sm: "block" } }}
@@ -61,6 +54,14 @@ function Header() {
         >
           <a data-scroll href="#projects">
             Projects
+          </a>
+        </Button>
+        <Button
+          className="navbtn"
+          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
+        >
+          <a data-scroll href="#education">
+            Education
           </a>
         </Button>
 
@@ -146,6 +147,7 @@ function Header() {
               Education
             </a>
           </Button>
+          
           <Button sx={{ color: "inherit" }}>
             <a data-scroll href="#skills">
               Skills
@@ -156,6 +158,7 @@ function Header() {
               Projects
             </a>
           </Button>
+          
           <Button sx={{ height: "3rem" }}>
             <a data-scroll href="#contact">
               Contact

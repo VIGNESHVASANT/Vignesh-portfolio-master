@@ -69,7 +69,7 @@ function About() {
             <GitHubIcon fontSize="large" />
           </Button>
           <Button
-            href="mailto:megaarasan2000@gmail.com"
+            href="mailto:vasantvignesh@gmail.com"
             variant="outlined"
             target="_blank"
             color="inherit"
@@ -101,7 +101,7 @@ function About() {
               target="_blank"
               underline="none"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1mzJHTduwWK0WSR_2N0TIAehyzPjXANLI/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bNf1C6ZBme1xGrLt8RbhHtLuKgcWhDeq/view?usp=sharing"
             >
               <b>RESUME</b>
             </Link>
