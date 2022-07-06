@@ -90,7 +90,7 @@ function Projects() {
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
-                href=""
+                href="https://kingcars-rental.netlify.app/login"
               >
                 <PreviewIcon fontSize="large" />
               </Link>
@@ -301,7 +301,7 @@ function Projects() {
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
-                href=""
+                href="https://mov-ies-db-app.netlify.app/"
               >
                 <PreviewIcon fontSize="large" />
               </Link>
